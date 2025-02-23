@@ -27,7 +27,7 @@ depth_image = np.random.rand(480, 640) * 0.5
 ```
 3.尝试实现论文 3.2 想象点云的显式生成但没有成功,对于机器人运动学模型处理不到位,也导致了点云处理并不成功<br>
 下面是 ppo 算法在 num_envs=2048, steps_num=100000000 下得到的效果图:<br>
-![Image](./DexterousHands/bidexhands/logs/XarmAllegroHandOver/figure.png)
+![Image](./figure.png)
 曲线波动比较大,需要进一步的完善.<br>
 
 ## 一些见解与体会
